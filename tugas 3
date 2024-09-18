@@ -1,0 +1,29 @@
+Nilai = float(input("Masukkan Nilai Anda : "))
+if (80.00 <= Nilai) and (Nilai <= 100.00):
+    print("Nilai Anda A")
+elif (77.50 <= Nilai) and (Nilai <= 79.99):
+    print("Nilai Anda A-")
+elif (75.00 <= Nilai) and (Nilai <= 77.49):
+    print("Nilai Anda A/B")
+elif (72.50 <= Nilai) and (Nilai <= 74.99):
+    print("Nilai Anda B+")
+elif (70.00 <= Nilai) and (Nilai <= 72.49):
+    print("Nilai Anda B")
+elif (67.50 <= Nilai) and (Nilai <= 69.99):
+    print("Nilai Anda B-")
+elif (65.00 <= Nilai) and (Nilai <= 67.49):
+    print("Nilai Anda B/C")
+elif (62.50 <= Nilai) and (Nilai <= 64.99):
+    print("Nilai Anda C+")
+elif (60.00 <= Nilai) and (Nilai <= 62.49):
+    print("Nilai Anda C")
+elif (55.00 <= Nilai) and (Nilai <= 59.99):
+    print("Nilai Anda C-")
+elif (50.00 <= Nilai) and (Nilai <= 54.99):
+    print("Nilai Anda C/D")
+elif (45.00 <= Nilai) and (Nilai <= 49.99):
+    print("Nilai Anda D+")
+elif (40.00 <= Nilai) and (Nilai <= 44.99):
+    print("Nilai Anda D")
+elif (0.00 <= Nilai) and (Nilai <= 39.99):
+    print("Nilai Anda E")
